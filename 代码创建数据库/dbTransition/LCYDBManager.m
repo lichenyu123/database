@@ -19,6 +19,8 @@ static LCYDBManager * instance = nil;
 {
     static dispatch_once_t once;
     
+    
+    
     dispatch_once(&once, ^{
        
         if (instance == nil)
